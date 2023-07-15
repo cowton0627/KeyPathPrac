@@ -109,6 +109,7 @@ class ViewController: UIViewController {
         let names = ["Alice", "Bob", "Charlie", "Dave"]
         let sortedNames = names.sorted { $0.count < $1.count }
         print(sortedNames) // 輸出: ["Bob", "Dave", "Alice", "Charlie"]
+//        123
         
     }
 
